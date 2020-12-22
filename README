@@ -2,4 +2,4 @@ git clone https://github.com/itProfi/openwrt.git
 cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
-./scripts/feeds install -a
+make defconfig
