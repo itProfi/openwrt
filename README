@@ -3,3 +3,4 @@ cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make defconfig
+OPTIONAL ./scripts/diffconfig.sh > config_xiaomi_lumi_my
