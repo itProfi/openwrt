@@ -39,7 +39,7 @@ jntool erase_pdm
 Всё что нужно, это в разделе Setup > Hardware добавить элемент с типом
 `Zigate plugin`, вписать имя в поле Name и нажать `Add`
 
-![Добавление Zigate plugin](images/zigate_plugin.png)
+![Добавление Zigate plugin](https://github.com/openlumi/xiaomi-gateway-openwrt/blob/master/images/zigate_plugin.png)
 
 Для настройки использовать
 
@@ -53,7 +53,7 @@ jntool erase_pdm
 
 ## Панель управления Zigate
 
-![Панель управления](images/zigate_dashboard.png)
+![Панель управления](https://github.com/openlumi/xiaomi-gateway-openwrt/blob/master/images/zigate_dashboard.png)
 
 В данной панели вы можете включить режим сопряжения с дочерними устройствами и 
 изменять настройки. 
