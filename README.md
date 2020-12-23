@@ -1,5 +1,8 @@
+# Копирование всей прошивки в архив
 BACKUP old:
+```sh
 tar -cvpzf /tmp/lumi_stock.tar.gz -C / --exclude='./tmp/*' --exclude='./dev/*' --exclude='./run/*' --exclude='./proc/*' --exclude='./sys/*' --exclude='./overlay/*' --exclude='./mnt/*' .
+````
 git clone https://github.com/itProfi/openwrt.git
 cd openwrt
 ./scripts/feeds update -a
