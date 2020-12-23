@@ -13,6 +13,14 @@ cp config_xiaomi_lumi .config
 make defconfig
 OPTIONAL ./scripts/diffconfig.sh > config_xiaomi_lumi_my
 ````
+Возможно, оф. фиды
+````
+src-git packages https://git.openwrt.org/feed/packages.git^2974079d3
+src-git luci https://git.openwrt.org/project/luci.git^51f55b58b
+src-git routing https://git.openwrt.org/feed/routing.git^02b4dbf
+src-git telephony https://git.openwrt.org/feed/telephony.git^6e019c9
+src-git freifunk https://github.com/freifunk/openwrt-packages.git^73454e6fe
+````
 # Установка Domoticz
 
 В репозитории OpenWrt 19.07 находится достаточно старая версия domoticz.
