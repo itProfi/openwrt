@@ -3,6 +3,8 @@ BACKUP old:
 ```sh
 tar -cvpzf /tmp/lumi_stock.tar.gz -C / --exclude='./tmp/*' --exclude='./dev/*' --exclude='./run/*' --exclude='./proc/*' --exclude='./sys/*' --exclude='./overlay/*' --exclude='./mnt/*' .
 ````
+# Клонирование и сборки своей прошивки
+```sh
 git clone https://github.com/itProfi/openwrt.git
 cd openwrt
 ./scripts/feeds update -a
@@ -10,7 +12,7 @@ cd openwrt
 cp config_xiaomi_lumi .config
 make defconfig
 OPTIONAL ./scripts/diffconfig.sh > config_xiaomi_lumi_my
-
+````
 # Установка Domoticz
 
 В репозитории OpenWrt 19.07 находится достаточно старая версия domoticz.
