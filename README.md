@@ -3,7 +3,7 @@ BACKUP old:
 ```sh
 tar -cvpzf /tmp/lumi_stock.tar.gz -C / --exclude='./tmp/*' --exclude='./dev/*' --exclude='./run/*' --exclude='./proc/*' --exclude='./sys/*' --exclude='./overlay/*' --exclude='./mnt/*' .
 ````
-# Клонирование и сборки своей прошивки
+# Клонирование и сборка своей прошивки
 ```sh
 git clone https://github.com/itProfi/openwrt.git
 cd openwrt
