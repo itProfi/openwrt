@@ -21,6 +21,10 @@ src-git routing https://git.openwrt.org/feed/routing.git^02b4dbf
 src-git telephony https://git.openwrt.org/feed/telephony.git^6e019c9
 src-git freifunk https://github.com/freifunk/openwrt-packages.git^73454e6fe
 ````
+Возможно, доп фид?
+````
+src-git node https://github.com/openlumi/openwrt-node-packages.git
+````
 # Установка Domoticz
 
 В репозитории OpenWrt 19.07 находится достаточно старая версия domoticz.
