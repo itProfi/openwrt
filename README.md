@@ -10,6 +10,10 @@ cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 cp config_xiaomi_lumi .config
+./scripts/feeds update node
+rm ./package/feeds/packages/node
+rm ./package/feeds/packages/node-*
+./scripts/feeds install -a -p node
 make defconfig
 OPTIONAL ./scripts/diffconfig.sh > config_xiaomi_lumi_my
 ````
