@@ -4,7 +4,6 @@ BACKUP old:
 tar -cvpzf /tmp/lumi_stock.tar.gz -C / --exclude='./tmp/*' --exclude='./dev/*' --exclude='./run/*' --exclude='./proc/*' --exclude='./sys/*' --exclude='./overlay/*' --exclude='./mnt/*' .
 ````
 # Копирование важных файлов прошивки в архив
-BACKUP old:
 ```sh
 tar -cvpzf /tmp/node_partial.tar.gz --add-file /.node-red/* --add-file /etc/config/* --add-file /etc/init.d/* --add-file /etc/ser2net.conf --add-file /etc/mpd.conf --add-file /usr/lib/node/* --add-file /usr/lib/node_modules/* --add-file /opt/mi/* --add-file /root/* .
 ````
