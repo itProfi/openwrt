@@ -14,6 +14,7 @@ cp config_xiaomi_lumi .config
 rm ./package/feeds/packages/node
 rm ./package/feeds/packages/node-*
 ./scripts/feeds install -a -p node
+ln -s files_xiaomi_lumi_my files
 make defconfig
 OPTIONAL ./scripts/diffconfig.sh > config_xiaomi_lumi_my
 ````
